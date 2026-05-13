@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ruille Suen | 个人作品集</title>
+    <meta
+      name="description"
+      content="Ruille Suen 个人网站模板，展示教育背景、项目经历、学生工作、荣誉证书与技能兴趣。"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="回到首页">
+        <span class="brand-mark">SRG</span>
+        <span>Ruille Suen</span>
+      </a>
+      <nav class="site-nav" aria-label="主导航">
+        <a href="#about">关于我</a>
+        <a href="#student-work">学生工作</a>
+        <a href="#research">科研</a>
+        <a href="#projects">项目</a>
+        <a href="#honors">荣誉</a>
+        <a href="#skills">技能</a>
+        <a href="#contact">联系</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero section-band">
+        <div class="hero-copy">
+          <p class="eyebrow">Mechanical Innovation / Intelligent Design</p>
+          <div class="hero-name-row">
+            <h1>Ruille Suen</h1>
+            <div class="portrait-doodle image-avatar" aria-label="黑色线稿个性化漫画形象">
+              <img src="assets/avatar-line-art.png" alt="Ruille Suen 线稿形象" />
+            </div>
+          </div>
+          <p class="hero-lede">
+            哈佛大学本科生，关注工程创新、智能系统、人机交互与跨学科项目实践。
+          </p>
+          <div class="hero-tags" id="heroTags" aria-label="关键词">
+            <span>机械设计</span>
+            <span>结构优化</span>
+            <span>ROS2 开发</span>
+            <span>工程实践</span>
+          </div>
+        </div>
+
+        <div class="hero-sketch refined" aria-label="工程简笔画">
+          <img class="hero-illustration" src="assets/hero-engineering-lineart.png" alt="精细工程结构线稿插画" />
+        </div>
+      </section>
+
+      <section id="about" class="about section-band" aria-labelledby="about-title">
+        <div class="section-heading">
+          <p class="eyebrow">Profile</p>
+          <h2 id="about-title">关于我</h2>
+        </div>
+        <div class="about-grid">
+          <p data-about="introOne">
+            就读于哈佛大学，保持对工程设计、数据分析、智能系统和跨学科创新的长期兴趣。这个页面可根据个人经历替换为真实专业、课程和研究方向。
+          </p>
+          <p data-about="introTwo">
+            曾参与学生组织与校园活动策划，在项目推进中多次承担负责人或核心成员角色，习惯把问题拆成结构、流程、沟通与验证几个层面推进。
+          </p>
+          <dl class="profile-stats">
+            <div>
+              <dt>学校</dt>
+              <dd data-about="school">哈佛大学</dd>
+            </div>
+            <div>
+              <dt>专业</dt>
+              <dd data-about="major">Engineering Sciences</dd>
+            </div>
+            <div>
+              <dt>GPA</dt>
+              <dd data-about="gpa">3.82 / 4.00</dd>
+            </div>
+            <div>
+              <dt>排名</dt>
+              <dd data-about="rank">Top 10% in cohort</dd>
+            </div>
+          </dl>
+        </div>
+      </section>
+
+      <section id="student-work" class="student-work section-band" aria-labelledby="student-work-title">
+        <div class="section-heading">
+          <p class="eyebrow">Student Work</p>
+          <h2 id="student-work-title">学生工作</h2>
+        </div>
+        <div class="student-work-grid" id="studentWorkList">
+          <article class="student-card expandable-card highlight">
+            <div class="card-summary">
+              <p class="panel-kicker">学生组织 / 部门负责人</p>
+              <h3>部门招新与团队建设</h3>
+              <p>负责学生组织部门招新与运行建设，从面试机制、成员筛选到后续分工协作，建立更清晰的团队工作节奏。</p>
+            <ul class="flow-list">
+              <li>招新组织</li>
+              <li>团队分工</li>
+              <li>现场策划</li>
+              <li>答辩考察</li>
+            </ul>
+            </div>
+            <details class="card-details">
+              <summary>展开详细内容</summary>
+              <div class="detail-grid">
+                <section><h4>招新设计</h4><p>面试人数 30+，最终部门总人数 18 人。二面采用现场活动策划与答辩汇报形式，重点考察新生分工合作、活动策划、临场表达和组织能力。</p></section>
+                <section><h4>管理重点</h4><p>通过明确岗位和任务类型，让新成员更快理解部门工作模式，减少只凭热情参与、缺少持续执行的问题。</p></section>
+                <section><h4>阶段成果</h4><p>部门成员积极性较高，各项任务能高效完成；截至总结阶段累计工作时长 210h+。</p></section>
+              </div>
+            </details>
+          </article>
+
+          <article class="student-card expandable-card">
+            <div class="card-summary">
+              <p class="panel-kicker">大二上 / 部门管理优化</p>
+              <h3>智能表单开发与工作记录统计</h3>
+              <p>设计并应用部门工作记录表单，把原本零散的成员任务、活动分类和工作时长转化为可统计、可查看的数据。</p>
+            <ul class="flow-list">
+              <li>表单开发</li>
+              <li>自动统计</li>
+              <li>信息公开</li>
+              <li>成员评分</li>
+            </ul>
+            </div>
+            <details class="card-details">
+              <summary>展开详细内容</summary>
+              <div class="detail-grid">
+                <section><h4>功能设计</h4><p>成员填写工作记录后，系统自动统计工作数量、任务类型和时长，并按照活动进行分类归档。</p></section>
+                <section><h4>使用场景</h4><p>成员可随时查看个人完成情况，部长端可查看每位成员的工作完成数量和时长，并根据质量进行评分。</p></section>
+                <section><h4>管理价值</h4><p>优化部门信息整理流程，降低统计成本，提升部门工作透明度，方便后续复盘和人手安排。</p></section>
+              </div>
+            </details>
+          </article>
+
+          <article class="student-card expandable-card">
+            <div class="card-summary">
+              <p class="panel-kicker">校园活动 / 音乐主题项目</p>
+              <h3>校园主题音乐活动策划</h3>
+              <p>策划并推进校园主题音乐活动，用自由舞台和社团联动提升活动开放度与现场氛围。</p>
+            <ul class="flow-list">
+              <li>主题策划</li>
+              <li>自由舞台</li>
+              <li>社团联动</li>
+              <li>现场执行</li>
+            </ul>
+            </div>
+            <details class="card-details">
+              <summary>展开详细内容</summary>
+              <div class="detail-grid">
+                <section><h4>活动定位</h4><p>围绕特定音乐主题打造轻松、开放的校园音乐场景，区别于传统晚会的固定节目单。</p></section>
+                <section><h4>执行设计</h4><p>设置自由舞台，开放 20+ 自由报名节目，邀请吉他社参演；活动安排在傍晚，避开中午炎热与校园活动高峰。</p></section>
+                <section><h4>数据反馈</h4><p>部门工作 32 项，总工作时长 56h，单人最长工作时长 13h，节目呈现受到观众好评。</p></section>
+              </div>
+            </details>
+          </article>
+
+          <article class="student-card expandable-card highlight">
+            <div class="card-summary">
+              <p class="panel-kicker">学生组织 / 大型晚会项目</p>
+              <h3>学院联合大型晚会策划</h3>
+              <p>参与多部门联合大型晚会，统筹节目、场务、物料与观众体验，是学生工作中较核心的大型活动。</p>
+            <ul class="flow-list">
+              <li>晚会统筹</li>
+              <li>节目协调</li>
+              <li>物料设计</li>
+              <li>场务沟通</li>
+            </ul>
+            </div>
+            <details class="card-details">
+              <summary>展开详细内容</summary>
+              <div class="detail-grid">
+                <section><h4>活动规模</h4><p>多部门联合举办，加强组织之间联系；节目类型覆盖歌、舞、话剧、器乐等，邀请多个社团参与，增强组织和社团交流。</p></section>
+                <section><h4>负责内容</h4><p>推进节目选择、场务沟通、门票制作、礼品选择、现场流程衔接等工作，兼顾观众体验和后台执行稳定性。</p></section>
+                <section><h4>成果与复盘</h4><p>部门工作 50+ 项，总工作时长 110h+，单人最长工作时长 30h+；后续复盘中重点优化策划时间、节目沟通、灯光场务和人手分配。</p></section>
+              </div>
+            </details>
+          </article>
+
+          <article class="student-card expandable-card">
+            <div class="card-summary">
+              <p class="panel-kicker">大二上 / 联合活动</p>
+              <h3>校园书信交换活动</h3>
+              <p>与其他学生组织联合举办书信交换活动，以手写信件为媒介，探索更温和的校园社交方式。</p>
+            <ul class="flow-list">
+              <li>学院联动</li>
+              <li>活动策划</li>
+              <li>情感连接</li>
+              <li>流程推进</li>
+            </ul>
+            </div>
+            <details class="card-details">
+              <summary>展开详细内容</summary>
+              <div class="detail-grid">
+                <section><h4>活动初衷</h4><p>打破数字化社交中的距离感，让同学通过信件表达近况、鼓励和祝福，重拾见字如面的交流温度。</p></section>
+                <section><h4>组织方式</h4><p>通过跨学院联合、信封收集、随机交换和后续反馈形成完整闭环，并控制隐私与参与体验。</p></section>
+                <section><h4>工作预估</h4><p>预计工作时长 30h+，工作项目 15+ 项，主要集中在宣传、收集、编号、交换和反馈整理。</p></section>
+              </div>
+            </details>
+          </article>
+
+          <article class="student-card expandable-card">
+            <div class="card-summary">
+              <p class="panel-kicker">大二下 / 大型晚会筹备</p>
+              <h3>毕业季主题晚会策划</h3>
+              <p>延续大型晚会组织经验，面向高年级同学策划一场兼具仪式感与情感表达的主题晚会。</p>
+            <ul class="flow-list">
+              <li>经验复用</li>
+              <li>流程设计</li>
+              <li>情感表达</li>
+              <li>舞台执行</li>
+            </ul>
+            </div>
+            <details class="card-details">
+              <summary>展开详细内容</summary>
+              <div class="detail-grid">
+                <section><h4>活动内容</h4><p>计划设置回忆短片、班级节目、师生祝福、互动抽奖和合影留念等环节，增强参与者的归属感。</p></section>
+                <section><h4>组织重点</h4><p>提前锁定节目负责人、场地和物料清单，明确灯光音响、主持串词、后台催场和应急预案。</p></section>
+                <section><h4>复盘应用</h4><p>吸取过往大型晚会中时间安排、节目沟通和场务分工的经验，提升大型活动执行稳定性。</p></section>
+              </div>
+            </details>
+          </article>
+
+          <article class="student-card expandable-card">
+            <div class="card-summary">
+              <p class="panel-kicker">大二下 / 节日主题活动</p>
+              <h3>节日主题校园互动活动</h3>
+              <p>围绕“童心”和“轻松陪伴”设计节日主题活动，为同学们提供期末前的放松空间。</p>
+            <ul class="flow-list">
+              <li>节日策划</li>
+              <li>互动游戏</li>
+              <li>氛围设计</li>
+              <li>未举办</li>
+            </ul>
+            </div>
+            <details class="card-details">
+              <summary>展开详细内容</summary>
+              <div class="detail-grid">
+                <section><h4>活动构想</h4><p>计划设置怀旧小游戏、童年歌单点唱、手作打卡、拍照留念和心愿便签墙等内容。</p></section>
+                <section><h4>氛围设计</h4><p>以轻量物料和低门槛互动为主，适合在课余时间快速参与，降低组织成本同时提升参与感。</p></section>
+                <section><h4>后续调整</h4><p>活动尚未举办，后续可根据场地、物料预算、参与人数和天气情况调整具体流程。</p></section>
+              </div>
+            </details>
+          </article>
+        </div>
+      </section>
+
+      <section id="research" class="research section-band" aria-labelledby="research-title">
+        <div class="section-heading">
+          <p class="eyebrow">Research</p>
+          <h2 id="research-title">科研经历</h2>
+        </div>
+        <div class="research-list" id="researchList">
+          <article class="feature-panel expandable-card">
+            <div class="card-summary">
+              <p class="panel-kicker">国家级大学生创新创业训练计划</p>
+              <h3>轻量化工程结构智能设计与性能优化</h3>
+              <p>面向轻量化工程结构，探索参数化建模、有限元分析和机器学习优化结合的智能设计流程。</p>
+            <ul class="flow-list">
+              <li>参数化建模</li>
+              <li>有限元分析</li>
+              <li>Abaqus 子程序调用</li>
+              <li>疲劳寿命预测</li>
+              <li>机器学习优化</li>
+            </ul>
+            </div>
+            <details class="card-details">
+              <summary>展开详细内容</summary>
+              <div class="detail-grid">
+                <section><h4>研究背景</h4><p>高性能工程结构对轻量化和可靠性要求较高，点阵、蜂窝与框架结构需要在强度、疲劳寿命和质量之间取得平衡。</p></section>
+                <section><h4>研究目标</h4><p>建立关键几何参量与强度、抗疲劳性能、轻量化指标之间的拓扑关系，形成“设计-优化-验证”的流程。</p></section>
+                <section><h4>技术方法</h4><p>对点阵和蜂窝结构进行参数化建模，利用有限元分析获得结构响应，并通过 Abaqus 子程序提取疲劳周期数据。</p></section>
+                <section><h4>数据与优化</h4><p>将多组仿真数据输入机器学习模型，进行寿命预测和结构参数优化，辅助筛选更优构型。</p></section>
+                <section><h4>个人贡献</h4><p>作为项目负责人，主导研究方向、实验设计、沟通推进、数据处理，并重点负责内凹形六边形蜂窝结构的寿命预测与优化。</p></section>
+              </div>
+            </details>
+          </article>
+
+          <article class="feature-panel expandable-card">
+            <div class="card-summary">
+              <p class="panel-kicker">高校实验室 / 机器人方向</p>
+              <h3>ROS2 具身智能机器人感知与任务执行开发</h3>
+              <p>参与实验室移动操作平台的 ROS2 开发，围绕感知、导航、任务编排和实机调试搭建基础功能模块。</p>
+            <ul class="flow-list">
+              <li>ROS2 节点通信</li>
+              <li>传感器数据接入</li>
+              <li>视觉目标识别</li>
+              <li>导航任务编排</li>
+              <li>仿真与实机调试</li>
+            </ul>
+            </div>
+            <details class="card-details">
+              <summary>展开详细内容</summary>
+              <div class="detail-grid">
+                <section><h4>项目场景</h4><p>面向实验室结构化环境中的移动操作平台，让机器人能够感知目标、理解任务并执行基础巡航或交互流程。</p></section>
+                <section><h4>系统结构</h4><p>基于 ROS2 节点通信组织感知、导航、任务控制和反馈模块，保证不同功能之间的数据流清晰。</p></section>
+                <section><h4>开发内容</h4><p>接入传感器数据，配合视觉识别模块完成目标检测，并将识别结果与导航任务流程进行衔接。</p></section>
+                <section><h4>验证方式</h4><p>通过仿真环境进行流程验证，再在实机上进行节点调试、任务测试和问题记录。</p></section>
+                <section><h4>个人贡献</h4><p>参与节点逻辑开发、任务流程验证、实验记录整理和现场调试，积累机器人系统工程化开发经验。</p></section>
+              </div>
+            </details>
+          </article>
+        </div>
+      </section>
+
+      <section id="projects" class="projects section-band" aria-labelledby="projects-title">
+        <div class="section-heading">
+          <p class="eyebrow">Projects</p>
+          <h2 id="projects-title">竞赛项目</h2>
+        </div>
+        <div class="project-grid" id="projectGrid">
+          <article class="project-card expandable-card">
+            <div class="card-summary">
+              <p class="panel-kicker">项目负责人 / 校园工程创新项目</p>
+              <h3>便携式手部放松装置设计</h3>
+              <p>面向手部疲劳放松场景，设计一款可折叠、可调节、兼具按摩与暖手功能的便携式手指放松装置。</p>
+              <ul class="flow-list">
+                <li>折叠结构</li>
+                <li>舵机控制</li>
+                <li>语音输入</li>
+                <li>暖手震动</li>
+              </ul>
+              <img class="project-illustration" src="assets/project-hand-device.png" alt="手部放松装置线稿插画" />
+            </div>
+            <details class="card-details">
+              <summary>展开详细内容</summary>
+              <div class="detail-grid">
+                <section><h4>设计目标</h4><p>解决长时间学习、打字或训练后的手指疲劳问题，强调不受时间环境影响、操作方便、手感舒适和便携收纳。</p></section>
+                <section><h4>结构方案</h4><p>采用折叠收纳结构，收纳后整体尺寸约 10cm × 10cm × 10cm，便于随身携带和桌面放置。</p></section>
+                <section><h4>功能实现</h4><p>利用舵机和语音输入实现多档位调节，同时加入震动缓解疲劳和暖手设计，提升使用舒适度。</p></section>
+                <section><h4>个人贡献</h4><p>作为项目负责人，主导项目方向，参与机械结构设计，重点完成折叠收纳结构设计，并负责沟通、组织和项目推进。</p></section>
+              </div>
+            </details>
+          </article>
+          <article class="project-card expandable-card highlighted">
+            <div class="card-summary">
+              <p class="panel-kicker">核心成员 / 自动化设备设计项目</p>
+              <h3>食品分拣与包装一体化设备设计</h3>
+              <p>设计覆盖进料、排序、视觉筛选、破壳分离和热切打包的一体化设备，面向小型食品预处理自动化场景。</p>
+              <ul class="flow-list">
+                <li>排列输送</li>
+                <li>YOLO 识别</li>
+                <li>对辊碎壳</li>
+                <li>热切打包</li>
+              </ul>
+              <img class="project-illustration" src="assets/project-sorting-machine.png" alt="自动化分拣包装设备线稿插画" />
+            </div>
+            <details class="card-details">
+              <summary>展开详细内容</summary>
+              <div class="detail-grid">
+                <section><h4>设计目标</h4><p>构建一台全自动食品分拣与包装设备，覆盖进料、排列筛选、预处理、分离和独立包装等模块。</p></section>
+                <section><h4>流程方案</h4><p>振动式进料口投入物料，排序输送装置将不同物料整理为稳定队列，为后续视觉识别和机械分拣提供输入。</p></section>
+                <section><h4>智能识别</h4><p>基于 YOLO 的视觉识别模块自动识别目标物料，排除干扰类别，提高筛选准确率和自动化程度。</p></section>
+                <section><h4>机械执行</h4><p>执行机构完成预处理与分离流程，并通过薄膜热切割装置完成独立包装。</p></section>
+                <section><h4>个人贡献</h4><p>负责机械结构整体设计，包括排列机构、对辊碎壳机构优化、连接结构设计和实际组装。</p></section>
+              </div>
+            </details>
+          </article>
+        </div>
+      </section>
+
+      <section id="honors" class="honors section-band" aria-labelledby="honors-title">
+        <div class="section-heading">
+          <p class="eyebrow">Honors</p>
+          <h2 id="honors-title">荣誉证书</h2>
+        </div>
+        <div class="honor-timeline" id="honorList">
+          <article class="honor-item major">
+            <time>2026.04</time>
+            <h3>工程创新设计竞赛一等奖</h3>
+            <p>机械创新重点奖项</p>
+          </article>
+          <article class="honor-item major">
+            <time>2026.04</time>
+            <h3>工程制图类竞赛二等奖</h3>
+            <p>工程制图与机械表达能力</p>
+          </article>
+          <article class="honor-item major">
+            <time>2025.05</time>
+            <h3>机械工程创新类竞赛二等奖</h3>
+            <p>市级机械创新竞赛</p>
+          </article>
+          <article class="honor-item compact">
+            <time>其他荣誉</time>
+            <ul>
+              <li>2024.11 全国大学生英语类竞赛一等奖</li>
+              <li>2024.11 数学类竞赛二等奖</li>
+              <li>2025.04 优秀共青团干部</li>
+              <li>2025.09 校二等奖学金</li>
+              <li>2025.10 校优秀学生</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="skills" class="skills section-band" aria-labelledby="skills-title">
+        <div class="section-heading">
+          <p class="eyebrow">Skills</p>
+          <h2 id="skills-title">技能与兴趣</h2>
+        </div>
+        <div class="skill-columns" id="skillList">
+          <div>
+            <h3>机械与仿真</h3>
+            <p>机械设计基础、材料力学、理论力学、疲劳寿命、AutoCAD、SolidWorks、Abaqus</p>
+          </div>
+          <div>
+            <h3>编程与智能化</h3>
+            <p>Python、ROS2、YOLO 基础应用、Abaqus 二次开发了解、机器人开发基础</p>
+          </div>
+          <div>
+            <h3>表达与协作</h3>
+            <p>WPS、Photoshop、项目沟通、团队组织、活动策划、英文阅读与表达</p>
+          </div>
+          <div>
+            <h3>证书与生活</h3>
+            <p>CET-4 535、CET-6 510、计算机等级证书、驾驶证、吉他、羽毛球、运动与旅行</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact section-band" aria-labelledby="contact-title">
+        <div class="section-heading">
+          <p class="eyebrow">Contact</p>
+          <h2 id="contact-title">联系我</h2>
+        </div>
+        <div class="contact-line">
+          <p>期待继续探索工程创新、智能系统、产品设计与跨学科项目相关机会。</p>
+          <a href="mailto:your.email@example.com">your.email@example.com</a>
+        </div>
+      </section>
+    </main>
+
+    <a class="back-to-top" href="#top" aria-label="返回顶部">↑</a>
+    <script src="script.js"></script>
+  </body>
+</html>
