@@ -1,146 +1,137 @@
 # Minimal Line-Art Personal Website Template
 
-这是一个简约线稿风个人网站模板，适合用于个人主页、作品集、在线简历和 GitHub Pages 静态部署。
+A clean, minimalist personal website template for portfolios, resumes, personal branding pages, and GitHub Pages deployment.
 
-模板采用浅米白背景、黑色线稿、圆角卡片和可展开内容模块。使用者可以根据自己的真实经历替换页面中的姓名、学校、项目、荣誉、技能和联系方式。
+This template uses a warm paper-like background, black line-art visuals, rounded cards, sticky navigation, expandable experience sections, and a lightweight static HTML/CSS/JavaScript structure.
 
-## 适合展示的内容
+## Preview
 
-- 个人介绍
-- 教育背景
-- 科研或实习经历
-- 项目或竞赛经历
-- 学生工作、社团工作或组织经历
-- 荣誉证书
-- 技能与兴趣
-- 联系方式
+After enabling GitHub Pages, your demo URL will look like:
 
-科研、项目和组织经历卡片支持点击展开，默认展示简略介绍，展开后展示背景、目标、方法、贡献、成果或复盘等模块。
+```text
+https://your-username.github.io/your-repository-name/
+```
 
-## 在线部署
-
-该模板是纯静态网站，可以直接部署到 GitHub Pages、Netlify 或 Vercel。
-
-GitHub Pages 部署方式：
-
-1. 新建 GitHub 仓库。
-2. 上传 `index.html`、`styles.css`、`script.js` 和 `assets/`。
-3. 进入仓库 `Settings` → `Pages`。
-4. Source 选择 `Deploy from a branch`。
-5. Branch 选择 `main`，Folder 选择 `/root`。
-6. 保存后等待 1-3 分钟。
-
-## 本地预览
-
-直接双击打开：
+Local preview:
 
 ```text
 index.html
 ```
 
-也可以使用任意静态服务器预览。
+## Features
 
-## 文件结构
+- Minimal warm paper-style visual design
+- Black line-art / engineering sketch aesthetic
+- Responsive layout for desktop and mobile
+- Sticky top navigation
+- Back-to-top button
+- Expandable cards for detailed experiences
+- Sections for profile, education, projects, research, student work, honors, skills, and contact
+- Pure static implementation: no build tools, no framework, no backend
+- Ready for GitHub Pages, Netlify, Vercel, or any static hosting service
+
+## File Structure
 
 ```text
 .
 ├── index.html
 ├── styles.css
 ├── script.js
+├── README.md
 └── assets/
-    └── avatar-line-art.png
+    ├── avatar-line-art.png
+    ├── hero-engineering-lineart.png
+    ├── project-hand-device.png
+    └── project-sorting-machine.png
 ```
 
-## 如何替换内容
+## Quick Start
 
-主要内容都在 `index.html` 中。
+1. Download or clone this repository.
+2. Open `index.html` in your browser.
+3. Replace the sample content with your own information.
+4. Replace images in `assets/` if needed.
+5. Deploy to GitHub Pages or another static hosting platform.
 
-常见替换项：
+## Customize the Content
 
-- `Ruille Suen`：替换为你的姓名或英文名
-- `哈佛大学`：替换为你的学校
-- `Engineering Sciences`：替换为你的专业
-- `your.email@example.com`：替换为你的邮箱
-- 科研、项目、学生工作卡片：替换为你的个人经历
-- 荣誉证书和技能兴趣：替换为你的真实内容
+Most text content is in `index.html`.
 
-头像图片位于：
+Common items to replace:
+
+| Placeholder | Replace With |
+| --- | --- |
+| `Ruille Suen` | Your name or public display name |
+| `哈佛大学` | Your school or organization |
+| `Engineering Sciences` | Your major, role, or field |
+| `your.email@example.com` | Your public contact email |
+| Research cards | Your research, internship, or work experience |
+| Project cards | Your projects, competitions, or portfolio pieces |
+| Student work cards | Your leadership, organization, club, or volunteer experience |
+| Honors section | Your awards and certificates |
+| Skills section | Your tools, languages, interests, and strengths |
+
+## Customize the Images
+
+Image assets are stored in:
 
 ```text
-assets/avatar-line-art.png
+assets/
 ```
 
-你可以替换为自己的头像、插画或其他风格一致的图片。
+You can replace:
 
-## AI 使用说明
+- `avatar-line-art.png` with your own avatar
+- `hero-engineering-lineart.png` with your preferred hero illustration
+- Project images with illustrations related to your own work
 
-本模板由用户需求和 AI 辅助共同完成。AI 参与了页面结构设计、文案组织、CSS 视觉风格、交互脚本和 README 文档整理。
+Recommended style:
 
-使用本模板时，建议将自己的简历、项目经历或活动总结提供给 AI，让 AI 按照模板结构整理内容，再人工检查真实性和表达是否准确。
+- Black line art
+- Warm ivory or transparent-looking background
+- No readable private information
+- No logos unless you own the rights
+- Keep file sizes reasonably small for faster loading
 
-## 通用 AI 提示词
+## Expandable Card Format
 
-下面是一段通用提示词。任何人都可以把自己的简历、项目材料或经历描述替换进去，让 AI 基于这个模板生成个人网站内容。
+Research, project, and student-work sections use expandable cards.
+
+Each card usually contains:
+
+- A short summary visible by default
+- Tags or keywords
+- A collapsible detail area
+- Detail modules such as background, goal, method, contribution, outcome, and reflection
+
+This structure works well for resumes because it keeps the page clean while still allowing deeper reading.
+
+## Deploy to GitHub Pages
+
+1. Create a new GitHub repository.
+2. Upload these files to the repository root:
+   - `index.html`
+   - `styles.css`
+   - `script.js`
+   - `assets/`
+3. Open repository `Settings`.
+4. Go to `Pages`.
+5. Under `Build and deployment`, choose:
+   - Source: `Deploy from a branch`
+   - Branch: `main`
+   - Folder: `/root`
+6. Save.
+7. Wait 1-3 minutes.
+
+Your website will usually be available at:
 
 ```text
-我想基于一个简约线稿风个人网站模板，制作一个适合我自己的个人主页。请根据我提供的个人资料，整理页面内容并生成适合放进 HTML 静态网站的文案。
-
-网站风格要求：
-- 整体简约、高级、克制
-- 背景使用浅米白色或接近纸张的暖色
-- 视觉元素以黑色线稿、圆角卡片、细线边框为主
-- 不要做成普通模板化简历页，要有作品集和个人主页的感觉
-- 保持移动端和桌面端都易读
-
-页面结构要求：
-- 首页：姓名、身份定位、一句话介绍、关键词标签、头像或线稿形象
-- 关于我：教育背景、专业方向、个人特点、核心能力
-- 科研 / 实习 / 工作经历：每个经历做成可展开卡片
-- 项目 / 竞赛经历：每个项目做成可展开卡片
-- 学生工作 / 社团 / 组织经历：如果有，也做成可展开卡片
-- 荣誉证书：重点奖项突出展示，其他奖项可合并展示
-- 技能与兴趣：按类别整理
-- 联系方式：邮箱、个人主页或其他公开联系方式
-
-卡片内容要求：
-- 默认状态显示简略介绍
-- 展开后按模块展示详细信息
-- 每个卡片可以包含：背景、目标、方法、负责内容、个人贡献、成果、复盘
-- 内容表达要真实、具体、有重点，避免空泛夸张
-
-请根据以下个人资料生成网站文案：
-
-【姓名】
-在这里填写姓名
-
-【学校 / 专业 / 年级】
-在这里填写教育背景
-
-【个人定位】
-在这里填写你希望别人记住你的方向，例如产品设计、机械创新、AI 应用、前端开发、数据分析等
-
-【科研 / 实习 / 工作经历】
-在这里填写经历材料
-
-【项目 / 竞赛经历】
-在这里填写项目材料
-
-【学生工作 / 社团经历】
-在这里填写组织活动、部门工作或社团经历
-
-【荣誉证书】
-在这里填写奖项和证书
-
-【技能与兴趣】
-在这里填写技能、工具、语言、兴趣爱好
-
-【联系方式】
-在这里填写公开邮箱或链接
+https://your-username.github.io/repository-name/
 ```
 
-## 更新方式
+## Update the Website
 
-修改本地文件后，如果使用 GitHub Pages，可以在项目目录中执行：
+After editing files locally:
 
 ```bash
 git add .
@@ -148,4 +139,101 @@ git commit -m "Update website content"
 git push
 ```
 
-推送后 GitHub Pages 会自动部署，通常 1-3 分钟后生效。
+GitHub Pages will redeploy automatically after the push.
+
+## AI-Assisted Workflow
+
+This template was created with AI assistance. AI helped with:
+
+- Information architecture
+- Portfolio copy structure
+- Visual direction
+- HTML/CSS/JavaScript implementation
+- Expandable card design
+- README organization
+- Prompt template drafting
+
+You can use AI to adapt this template to your own background. Always review generated content for accuracy, privacy, and tone before publishing.
+
+## Reusable AI Prompt
+
+Use this prompt with your own resume, project notes, or portfolio materials:
+
+```text
+I want to create a personal portfolio website based on a minimalist line-art static website template.
+
+Please help me organize my information into clean website copy and section content.
+
+Style requirements:
+- Minimal, refined, and professional
+- Warm paper-like background
+- Black line-art visual style
+- Rounded cards and thin borders
+- Portfolio-like, not a generic resume page
+- Readable on both desktop and mobile
+
+Website sections:
+- Hero: name, short positioning statement, keywords, avatar or line-art image
+- About: education, field, strengths, and personal focus
+- Research / Internship / Work: expandable cards
+- Projects / Competitions: expandable cards
+- Student work / Leadership / Volunteer experience: expandable cards if relevant
+- Honors: key awards highlighted, other awards grouped
+- Skills and interests: grouped by category
+- Contact: public email or links
+
+Expandable card requirements:
+- Default view: short summary
+- Expanded view: detailed modules
+- Suggested modules: background, goal, method, role, contribution, result, reflection
+- Keep the writing specific, truthful, and not exaggerated
+
+Please generate website-ready content based on the following information:
+
+[Name]
+Fill in your name.
+
+[Education / Role]
+Fill in your school, major, role, or current identity.
+
+[Personal Positioning]
+Describe how you want people to remember you.
+
+[Research / Internship / Work Experience]
+Paste your experience here.
+
+[Projects / Competitions]
+Paste your projects here.
+
+[Leadership / Student Work / Club Experience]
+Paste your organization or activity experience here.
+
+[Honors / Certificates]
+Paste your awards here.
+
+[Skills / Interests]
+Paste your skills, tools, languages, and interests here.
+
+[Contact]
+Paste your public contact information here.
+```
+
+## Privacy Notes
+
+Before publishing, check that the site does not expose sensitive personal information.
+
+Recommended:
+
+- Use a public email instead of a private phone number
+- Avoid exact home address, student ID, private account IDs, or non-public project names
+- Replace sensitive project names with generalized names if needed
+- Review images for hidden personal information
+
+## License
+
+You can add a license depending on how you want others to use this template.
+
+Common choices:
+
+- MIT License for open reuse
+- No license if you do not want to grant reuse rights by default
